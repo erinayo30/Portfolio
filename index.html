@@ -9,19 +9,20 @@
 <script src="https://kit.fontawesome.com/349ccceb36.js" crossorigin="anonymous"></script>
 <title>Farinmade Joshua | Portfolio</title>
 </head>
-<body class="bg-[url(./Imgage/jo.jpg)] border-box">
+<body class="bg-[url('/Imgage/jo.jpg')] border-box">
     <!-- Navbar section -->
-    <section class="bg-[#081b29] text-[#fff6f4]" >
-        <nav class=" flex justify-between items-center px-[100px] py-8 cursor-pointer">
-            <a href="#"><h1 class="text-[#ffa41b] hover:text-[#f86f03] text-xl font-bold">Farinmade</h1></a>
-                <ul class="flex gap-5 text-[20px] list-none">
-                   <li><a href="#home" class="hover:text-[#f86f03]">Home</a</li>
-                   <li><a href="#about-me" class="hover:text-[#f86f03]"> About Me</a></li>
-                   <li><a href="#project" class="hover:text-[#f86f03]">Project</a> </li>
-                   <li><a href="#skilss" class="hover:text-[#f86f03]">Skils</a></li>
-                   <li><a href="#contact" class="hover:text-[#f86f03]">Contacts</a> </li> 
-                </ul> 
-        </nav>
+    <nav class=" flex justify-between items-center px-[100px] py-8 cursor-pointer sticky top-0 bg-[#191D88] text-[#fff6f4] sm:text-center">
+        <a href="#"><h1 class="text-[#ffa41b] hover:text-[#FFF6F4] text-4xl font-bold sm: text-2xl p-2">Farinmade</h1></a>
+            <ul class="flex gap-5 text-[20px] list-none sm: text-lg sm:lg sm:gap-2">
+               <li><a href="#home" class="hover:text-[#f86f03]">Home</a</li>
+               <li><a href="#about-me" class="hover:text-[#f86f03]"> About Me</a></li>
+               <li><a href="#project" class="hover:text-[#f86f03]">Project</a> </li>
+               <li><a href="#skilss" class="hover:text-[#f86f03]">Skils</a></li>
+               <li><a href="#contact" class="hover:text-[#f86f03]">Contacts</a> </li> 
+            </ul> 
+    </nav>
+    <!-- Hero Section -->
+    <section class=" text-[#fff6f4] " >
         <div class="bg-[#F86F03] p-4 text-xl">
             <h3 class="text-[#fff6f4]">Hi, I am</h3>  
             <h1 class="font-bold text-[#fff6f4] text-3xl">Farinmade Joshua A</h1>
@@ -54,7 +55,7 @@
         <div class=" grid-rows-2">
             <h2 class="text-center text-3xl"><a href="#about-me">About Joshua Farinmade</a></h2>
             <p class="text-justify p-3 leading-6 md:flex gap-3 self-center">
-                <img src="./Image/yvby8j.jpg" class="align-right" alt="About me">
+                <img src="./Image/yvby8j.jpg" class="align-right md:h-full md:w-48" alt="About me">
                 Joshua Adeyemi Farinmade is a passionate and goal-driven individual with a love for creativity and innovation. 
                 I am an aspiring software developer who is knowledgeable in HTML, CSS, JavaScript, and also possess problem-solving skills.
                  Am currently a fellow at TIIDELab where I have helped build a traveling website during my Pre-fellowship period. 
@@ -79,7 +80,7 @@
     </section>
    
     <!-- Projects -->
-    <section class="bg-[#F86F03] h-100%">
+    <section class="bg-[#F86F03] h-100% sm:text-center">
         <a href="#project" class=""> <h2 class="text-center text-3xl text-[#fff6f4] ">Project</h2></a>
         <p class="text-center text-[#fff6f4]">I have built the following projects as an individual and also with my team member</p>
         <div class="flex justify-between items-center px-[50px] py-8 cursor-pointer h-100 grid grid-cols-3 gap-4 text-justify p-3 leading-6 md:flex gap-3 self-center"> 
@@ -105,26 +106,26 @@
         </div>
     </section>
     <!-- skilss -->
-    <section class="">
+    <section class="sm:text-center">
         <h2 class="text-center text-3xl">Skills</h2>
-        <div class="flex flex-row p-3 m-3">
+        <div class="flex flex-row space-x-4 mt-2 p-3 m-3">
                 <div>
                     <i class="fa-brands fa-html5 fa-2x"></i>
-                    <p>
+                    <p class="mt-2 text-justify border-3px rounded">
                         I am well knowledgeable in HTML, and I have used this skills in building my Projects.
                     </p>
                 </div>
                <div>
                 <i class="fa-brands fa-css3-alt fa-2x"></i>
-                <p>I have been using CSS to build projects for some times and I have used it in improving my work 
+                <p class= "mt-2 text-justify">I have been using CSS to build projects for some times and I have used it in improving my work 
                     so as to beautify it </p>
                </div>
                <div>
                 <i class="fa-brands fa-js fa-2x"></i>
-                <p>I have just started my class on JavaScript, in order to improve my work efficency</p>
+                <p class="mt-2 text-justify">I have just started my class on JavaScript, in order to improve my work efficency</p>
                </div>
                <div>
-                <p>I also posses good communication skills and ability to work with my team in orderto achieve desired results</p>
+                <p class="mt-2 text-justify">I also posses good communication skills and ability to work with my team in orderto achieve desired results</p>
                </div>
         </div>
     </section>
@@ -155,13 +156,13 @@
         </div>
     
        <!-- footer -->
-       <footer class="bg-[#081b29] text-center" >
+       <footer class="bg-[#191D88] text-center" >
         <div class="align-center text-[#FFF6F4] space-x-0.5">
-            <ul class="flex gap-5 p-6 align-center list-none">
-                <a href="https://www.linkedin.com/in/farinmade-joshua-056a48243" class=""><i class="fa-brands fa-linkedin fa-2x items-center"></i></a>
-                 <a href="https://github.com/erinayo30"><i class="fa-brands fa-github fa-2x white center"></i></a>
-                 <a href="https://twitter.com/FarinmadeJoshua"><i class="fa-brands fa-twitter fa-2x"></i></a>
-                 <a href="https://medium.com/@joshuafarinmade"><i class="fa-brands fa-medium"></i></a>
+            <ul class="flex gap-5 p-6 align-center text-center list-none">
+                <a href="https://www.linkedin.com/in/farinmade-joshua-056a48243" class=""><i class="fa-brands fa-linkedin fa-2x hover:text-[#f86f03] text-center"></i></a>
+                 <a href="https://github.com/erinayo30"><i class="fa-brands fa-github fa-2x hover:text-[#f86f03] text-center"></i></a>
+                 <a href="https://twitter.com/FarinmadeJoshua"><i class="fa-brands fa-twitter fa-2x hover:text-[#f86f03] text-center"></i></a>
+                 <a href="https://medium.com/@joshuafarinmade"><i class="fa-brands fa-medium hover:text-[#f86f03] text-center"></i></a>
              </ul>
         </div>
         <p class="text-[#FFF6F4]">Copyright &copy; 2023, Farinmade Joshua, All Right Reserved</p>
